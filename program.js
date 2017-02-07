@@ -15,3 +15,5 @@ require('babel/register')({
 app.use('/', function (req, res) {
     res.render('index', '');
 });
+
+app.listen(app.get('port'), function() {});
