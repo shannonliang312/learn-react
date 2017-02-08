@@ -16,7 +16,7 @@ class TodoList extends React.Component {
     // Write code here
     render() {
         return (
-            <div class="todoList">
+            <div className="todoList">
                 I am a TodoList.
             </div>
         )
@@ -27,12 +27,10 @@ class TodoForm extends React.Component {
     // Write code here
     render() {
         return (
-            <div class="todoForm">
+            <div className="todoForm">
                 I am a TodoForm.
             </div>
         )
     }
 }
 
-let TodoBox = <TodoBox/>;
-ReactDOM.render(TodoBox, document.getElementById("container"));
