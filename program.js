@@ -13,7 +13,7 @@ require('babel/register')({
 });
 
 app.use('/', function (req, res) {
-    res.render('index-props', '');
+    res.render('index-proptypes', '');
 });
 
 app.listen(app.get('port'), function() {});
